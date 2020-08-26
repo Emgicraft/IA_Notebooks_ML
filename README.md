@@ -6,6 +6,7 @@ Aquí haré un resumen de cada Notebook creado, básicamente explicar cuál es e
 
 ### Regresión Lineal
 _[Desarrollado en base a este vídeo.](https://youtu.be/w2RJ1D6kz-o)_
+
 Se trabajó con el dataset "Boston" que está accesible por la librería Scikit-Learn, los datos usados fueron:
 
 1. Número medio de habitaciones
@@ -23,11 +24,17 @@ Y más, cada factor que quisieramos tomar en cuenta se consideraría una dimensi
 ### Ataques Adversarios
 _[Desarrollado en base a este vídeo.](https://youtu.be/JoQx39CoXW8)_
 
+La idea es la siguiente: darle una imagen de entrada al modelo Inception V3 que para el ojo humano, no parezca que sea manipulada pero que cuando lo procese el modelo, nos diga que es un... limón? xD Si, un limón!!
 
 ### Descenso del Gradiente
 _[Desarrollado en base a este vídeo.](https://youtu.be/-_A_AAxqzCg)_
 
 
+
 ### Programando una Red Neuronal desde Cero
 _[Desarrollado en base a este vídeo.](https://youtu.be/W8AeOXa_FqU)_
+
+
+### Red Neuronal con TensorFlow_Keras_Scikit-Learn
+_[Desarrollado en base a este vídeo.](https://youtu.be/qTNUbPkR2ao)_
 
