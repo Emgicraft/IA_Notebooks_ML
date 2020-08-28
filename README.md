@@ -25,16 +25,33 @@ Y más, cada factor que quisieramos tomar en cuenta se consideraría una dimensi
 _[Desarrollado en base a este vídeo.](https://youtu.be/JoQx39CoXW8)_
 
 La idea es la siguiente: darle una imagen de entrada al modelo Inception V3 que para el ojo humano, no parezca que sea manipulada pero que cuando lo procese el modelo, nos diga que es un... limón? xD Si, un limón!!
+Claro que podríamos hacer que el modelo vea otra cosa diferente a un limón pero para ello habría que ver las clases de imagen que reconoce, como se verá en el notebook, la clase 951 que es la del limón, si se quiere algo diferente, hay que probar con otros números.
 
 ### Descenso del Gradiente
 _[Desarrollado en base a este vídeo.](https://youtu.be/-_A_AAxqzCg)_
 
-
+El descenso del gradiente... un método iterativo para minimizar el error, si quieres entender mejor esto, te invito a ver [este vídeo](https://youtu.be/A6FiCDoz8_4), ya que lo explica bastante claro, sin embargo, para resumir, lo que se quiere es dar un paso a la vez por cada iteración para ir reduciendo el error.
 
 ### Programando una Red Neuronal desde Cero
 _[Desarrollado en base a este vídeo.](https://youtu.be/W8AeOXa_FqU)_
 
+Ahora si, por fin! A programar una red neuronal! Pero no será tan simple como suena. xD
+Para empezar, no se hará uso de librerías como Tensorflow o Keras, como mucho se usará numpy para las operaciones con matrices y matplotlib para hacer las gráficas.
+Por lo que el código no será versátil, es decir, que si luego queremos hacer cambios, habría que rehacer todo el programa desde cero, lo cual es totalmente ineficiente y es ahí cuando ya entran las librerías antes mencionadas, pero como esto es como una guía edcucativa, veremos de que está compuesto una red neuronal a detalle y así tener una mejor comprensión.
 
 ### Red Neuronal con TensorFlow_Keras_Scikit-Learn
 _[Desarrollado en base a este vídeo.](https://youtu.be/qTNUbPkR2ao)_
 
+Aquí ya hacemos uso de las librerías más conocidas del machine learning y/o data science, veremos como usando usando estás librerías podemos darle una solución mucho más rápida y con menos líneas de código, al problema de crear una red neuronal, pero también veremos que conforme se va subiendo de nivel en librerías, la flexibilidad de nuestro programa disminuye.
+
+En la siguiente imagen se puede apreciar lo indicado antes pero para mayor entendimiento, puede ver el vídeo del enlace proporcionado al inicio de esta sección:
+
+![Simplicidad vs Flexibilidad](Recursos/ML_Librerias_Simplicidad_vs_Flexibilidad.png)
+
+### Proximamente...
+Proximamente estaré agregando un notebook más en dónde hablaremos sobre Pix2Pix, un modelo que hace uso de redes neuronales generativas adversarias, para en este caso específico, poder darle mejor nitidez a una imagen pixeleada o de baja resolución. Claro que no se limita a solo eso, [en este video](https://youtu.be/BerOC6n8j9Q) presenta 40 diferentes proyectos usando esta tecnología y todos fueron desarrollados por la comunidad del [canal dotCSV](https://www.youtube.com/c/DotCSV).
+
+Peronsalmente me fue motivador toda esa recopilación, ya que gente sin mucho conocimiento o que recién está empezando en este campo, al igual que yo, ha podido crear cosas tan interesantes, curiosas y con enfoques de problemas reales, recomendadísimo! :smile:
+
+## Agradecimiento especial :smiley:
+Sin más que decir, agradezco tremendamente el gran contenido de calidad que ofrece el [canal dotCSV](https://www.youtube.com/c/DotCSV), gracias a ello me he podido incursionar en este mundo de la inteligencia artificial y motivarme aún más con cada nuevo vídeo! :laughing:
