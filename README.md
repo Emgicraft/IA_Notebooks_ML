@@ -48,10 +48,18 @@ En la siguiente imagen se puede apreciar lo indicado antes pero para mayor enten
 
 ![Simplicidad vs Flexibilidad](Recursos/ML_Librerias_Simplicidad_vs_Flexibilidad.png)
 
-### Proximamente...
-Proximamente estaré agregando un notebook más en dónde hablaremos sobre Pix2Pix, un modelo que hace uso de redes neuronales generativas adversarias, para en este caso específico, poder darle mejor nitidez a una imagen pixeleada o de baja resolución. Claro que no se limita a solo eso, [en este video](https://youtu.be/BerOC6n8j9Q) presenta 40 diferentes proyectos usando esta tecnología y todos fueron desarrollados por la comunidad del [canal dotCSV](https://www.youtube.com/c/DotCSV).
+### IA Pix2Pix
+_[Desarrollado en base a este vídeo.](https://youtu.be/YsrMGcgfETY)_
+
+Por fin!! Ya está terminado el modelo de IA Pix2Pix, un modelo que hace uso de redes neuronales generativas adversarias, que para este caso específico lo usaremos para darle mejor nitidez a una imagen de poco nítida o baja calidad que representa a a alguna flor. Claro que el modelo no se limita a solo eso y es [en este video](https://youtu.be/BerOC6n8j9Q) en el que se presentan 40 diferentes proyectos usando esta tecnología, todos desarrollados por la comunidad del [canal dotCSV](https://www.youtube.com/c/DotCSV). :smiley:
 
 Peronsalmente me fue motivador toda esa recopilación, ya que gente sin mucho conocimiento o que recién está empezando en este campo, al igual que yo, ha podido crear cosas tan interesantes, curiosas y con enfoques de problemas reales, recomendadísimo! :smile:
 
+#### Nota adicional
+Como nota adicional, comparto [aquí el enlace al Drive](https://drive.google.com/drive/folders/1eHRQJO8GQvoX73MwBTXm-xUed2iXsDla?usp=sharing) que contiene los recursos usados para este último proyecto.
+
 ## Agradecimiento especial :smiley:
 Sin más que decir, agradezco tremendamente el gran contenido de calidad que ofrece el [canal dotCSV](https://www.youtube.com/c/DotCSV), gracias a ello me he podido incursionar en este mundo de la inteligencia artificial y motivarme aún más con cada nuevo vídeo! :laughing:
+
+## Licencia
+Este proyecto está bajo la [esta licencia](LICENSE) que puede leer para más información con respecto a los derechos, limitaciones y garantías.
